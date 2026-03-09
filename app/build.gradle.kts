@@ -31,6 +31,8 @@ java {
 application {
     // Define the main class for the application.
     mainClass = "dev.haruki7049.nosjava.Main"
+
+    applicationDefaultJvmArgs = listOf("--enable-native-access=javafx.graphics")
 }
 
 javafx {
