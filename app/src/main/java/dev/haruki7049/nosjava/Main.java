@@ -1,4 +1,4 @@
-package org.example;
+package dev.haruki7049.nosjava;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
