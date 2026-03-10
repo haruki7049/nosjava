@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    implementation("xyz.tcheeric:nostr-java-client:2.0.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
