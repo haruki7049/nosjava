@@ -24,7 +24,7 @@
       perSystem =
         { pkgs, ... }:
         let
-          jdk-with-fx = pkgs.jdk25.overrideAttrs {
+          jdk-with-fx = pkgs.jdk.overrideAttrs {
             withFX = true;
           };
         in
@@ -59,7 +59,7 @@
             packages = [
               # Compiler & Runtime (JDK)
               jdk-with-fx
-              pkgs.gradle_9
+              pkgs.gradle
 
               # LSP
               pkgs.nil
